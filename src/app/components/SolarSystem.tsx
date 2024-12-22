@@ -149,7 +149,7 @@ const SolarSystem = ({ hasLoaded }: { hasLoaded: boolean }) => {
         <div className="text-white fixed top-4 right-4 p-2 bg-black/50 font-mono text-[11px]">
           <p>Space Rocket Console</p>
           <p>Use the arrow keys to move around</p>
-          <p>Press 1-9 to follow a specific planet</p>
+          <p>Press 0-9 to follow a specific planet</p>
           <p>Use scroll wheel to zoom in and out</p>
           <p>Press R to reset the camera</p>
           <p>Press O to toggle top-down / side view</p>
