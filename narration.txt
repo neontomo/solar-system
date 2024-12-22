@@ -1,0 +1,39 @@
+Welcome to the Solar System. I am your artificial companion, your guide to exploring the wonders of outer space. Together, we’ll uncover the secrets of the planets and beyond.
+
+Here’s how to navigate:
+You can use the arrow keys to move around.
+Press 1 through 9 on your keyboard to follow a specific planet.
+Use the scroll wheel to zoom in and out.
+Press R to reset the camera.
+Press O to toggle top-down or side-view.
+Let’s begin our journey.
+
+Now following the Sun.
+The heart of the Solar System, the Sun is a colossal ball of plasma generating energy through nuclear fusion. It’s over 4.6 billion years old and accounts for 99.8% of the Solar System's mass. It takes sunlight about 8 minutes to reach Earth.
+
+Now following Mercury.
+The smallest planet, Mercury orbits closer to the Sun than any other. Its days are scorching at 430 celsius, but nights plummet to minus 180 celsius. A day on Mercury lasts longer than its year.
+
+Now following Venus.
+Venus is Earth's "twin" in size but a polar opposite in climate. Its thick atmosphere creates a runaway greenhouse effect, making it the hottest planet with surface temperatures hot enough to melt lead. Its clouds are made of sulphuric acid.
+
+Now following Earth.
+Welcome home! Known as "Tellus," "Terra," or simply Earth, it’s the only planet known to harbour life. With 70% of its surface covered by water and a breathable atmosphere, it’s one of a kind in the vast cosmos.
+
+Now following Mars.
+The "Red Planet" is a dusty, cold desert world with a thin atmosphere. It’s home to the largest volcano in the solar system, Olympus Mons, and a canyon that dwarfs the Grand Canyon, Valles Marineris. Scientists are constantly exploring its potential to support life.
+
+Now following Jupiter.
+The giant of the solar system, Jupiter could fit 1,300 Earths inside it. Its famous Great Red Spot is a storm larger than Earth that’s been raging for centuries. Jupiter also has at least 92 moons, including Europa, which might have an ocean beneath its icy surface.
+
+Now following Saturn.
+Known for its stunning rings, Saturn is a gas giant mostly made of hydrogen and helium. Its rings are made of ice and rock, some as small as a pebble and others as large as a house. Saturn’s moon Titan has lakes and rivers, but they’re made of liquid methane.
+
+Now following Uranus.
+Uranus spins on its side, likely due to a massive collision early in its history. Its pale blue-green colour comes from methane in its atmosphere. Temperatures can drop to minus 224 celsius, making it the coldest planet in the solar system.
+
+Now following Neptune.
+The farthest planet from the Sun, Neptune is a deep blue world with the fastest winds in the solar system, reaching speeds of over 2,000 kilometers per hour. Its moon Triton orbits backward compared to other moons and might be a captured object from the Kuiper Belt.
+
+Now following Pluto.
+Once considered the ninth planet, Pluto is now classified as a dwarf planet. It’s a frozen world with a heart-shaped glacier made of nitrogen ice. Pluto’s orbit is so elliptical that it sometimes comes closer to the Sun than Neptune. Its largest moon, Charon, is so big relative to Pluto that they’re often called a double dwarf planet system.
