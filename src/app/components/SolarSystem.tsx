@@ -3,10 +3,7 @@
 import { useEffect, useRef, useState } from 'react'
 import * as THREE from 'three'
 import { planets } from '@/app/constants/planets'
-import {
-  createPerlinBasedTextureWithColor,
-  createPlanetMeshes
-} from '@/app/utils/texture'
+import { createPlanetMeshes } from '@/app/utils/texture'
 import {
   handleKeyDown,
   handleMouseMove,
@@ -100,19 +97,31 @@ const SolarSystem = ({ hasLoaded }: { hasLoaded: boolean }) => {
     setInterval(() => {
       planetMeshes.forEach((planetMesh, index) => {
         const planet = planets[index]
-        if (planet.name !== 'Sun') return
+        if (planet.name === 'Sun') {
+          // texture image
+          const textureUrl = '/textures/planeter/jpg/sun.jpg'
+          const textureLoader = new THREE.TextureLoader()
+          textureLoader.load(textureUrl, (texture) => {
+            planetMesh.mesh.material = new THREE.MeshBasicMaterial({
+              map: texture
+            })
+          })
 
-        const texture = createPerlinBasedTextureWithColor(
-          planet.name,
-          32,
-          new THREE.Color(planet.color)
-        )
+          // add it
+          scene.add(planetMesh.mesh)
+        } else {
+          // texture image
+          const textureUrl = `/textures/planeter/jpg/${planet.name.toLowerCase()}.jpg`
+          const textureLoader = new THREE.TextureLoader()
+          textureLoader.load(textureUrl, (texture) => {
+            planetMesh.mesh.material = new THREE.MeshBasicMaterial({
+              map: texture
+            })
+          })
 
-        const material = new THREE.MeshBasicMaterial({
-          map: texture
-        })
-
-        planetMesh.mesh.material = material
+          // add it
+          scene.add(planetMesh.mesh)
+        }
       })
     }, 400)
 
